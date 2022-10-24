@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background: black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  font-family: 'Fasthand', cursive;
+font-family: 'Lato', sans-serif;
+
+}
+h1 {
+  margin-bottom: 20px;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: blue;
+  width: 50%;
+  border-radius: 15px;
+  padding: 40px;
+  background: rgb(20,142,57);
+background: radial-gradient(circle, rgba(20,142,57,1) 0%, rgba(45,53,253,1) 100%);
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  min-width: 30%;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  background: rgb(69, 9, 9);
+  border: none;
+  cursor: pointer;
+}
+
+#wutangName {
+  color: white;
+}
